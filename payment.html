@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Fee Payment Form</title>
+    <link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<body>
+    <div class="container">
+        <h1>School Fee Payment Form</h1>
+        <form action="#" method="post">
+            <label for="student-name">Student Name:</label><br>
+            <input type="text" id="student-name" name="student-name" required><br>
+
+            <label for="student-class">Class:</label><br>
+            <select id="student-class" name="student-class" required>
+                <option value="">Select Class</option>
+                <option value="1">Class 1</option>
+                <option value="2">Class 2</option>
+                <option value="3">Class 3</option>
+                <!-- Add more classes as needed -->
+            </select><br>
+
+            <label for="fee-amount">Fee Amount:</label><br>
+            <input type="number" id="fee-amount" name="fee-amount" required><br>
+
+            <label for="payment-method">Payment Method:</label><br>
+            <select id="payment-method" name="payment-method" required>
+                <option value="">Select Payment Method</option>
+                <option value="credit-card">Credit Card</option>
+                <option value="debit-card">Debit Card</option>
+                <option value="net-banking">Net Banking</option>
+                <!-- Add more payment methods as needed -->
+            </select><br>
+
+            <input type="submit" value="Pay">
+        </form>
+    </div>
+</body>
+</html>

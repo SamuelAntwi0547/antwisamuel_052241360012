@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        .form-container {
+            width: 300px;
+            margin: 0 auto;
+        }
+        .form-header {
+            text-align: center;
+        }
+        .form-body {
+            display: flex;
+            flex-direction: column;
+        }
+        .field-container {
+            margin-bottom: 10px;
+        }
+        .field-container label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .field-container input {
+            width: 100%;
+            padding: 5px;
+        }
+        .form-footer {
+            text-align: center;
+        }
+        .proceed-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+        }
+        .proceed-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-header">
+            <h2>Student Registration Form</h2>
+        </div>
+        <div class="form-body">
+            <div class="field-container">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" required>
+            </div>
+            <div class="field-container">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required>
+            </div>
+            <div class="field-container">
+                <label for="phone">Phone</label>
+                <input id="phone" type="tel" name="phone" required>
+            </div>
+            <div class="field-container">
+                <label for="course">Course</label>
+                <input id="course" type="text" name="course" required>
+            </div>
+            <div class="date-cvv">
+                <div class="field-container">
+                    <label for="dob">Date of Birth</label>
+                    <input id="dob" type="date" name="dob" required>
+                </div>
+                <div class="field-container">
+                    <label for="address">Address</label>
+                    <input id="address" type="text" name="address" required>
+                </div>
+            </div>
+        </div>
+        <div class="form-footer">
+            <button type="submit" class="proceed-btn">Proceed</button>
+        </div>
+    </div>
+</body>
+</html>

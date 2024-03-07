@@ -1,0 +1,92 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #171e3f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.carpstudent {
+    background-size: url('home.jpeg');
+
+}
+
+/* nav {
+    background-color: #f4f4f4;
+    height: 50px;
+} */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e9f7ef;
+
+}
+
+main {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+    line-height: 30px;
+
+}
+
+h2 {
+    color:#171e3f;
+    line-height: 20px;
+}
+
+h1 {
+    background-color: #171e3f;
+    padding: 100px;
+    margin: 0;
+}
+
+.image {
+    background-image: url(home.jpeg);
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: local;
+    padding-bottom: 300px;
+}
+
+.faculties li {
+    list-style: none;
+}
+
+.faculties a {
+    text-decoration: none;
+    color: yellowgreen;
+    line-height: 35px;
+    list-style: none;
+
+}
+
+.faculties a:hover {
+    font-weight: bolder;
+    color: rgb(101, 101, 207);
+    /* display: inline-table; */
+}
